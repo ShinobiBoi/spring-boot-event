@@ -4,6 +4,7 @@ import com.eventmaster.user_services.model.LoginRequest;
 import com.eventmaster.user_services.model.User;
 import com.eventmaster.user_services.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -25,18 +26,9 @@ public class UserController {
 
     // Login
     @PostMapping("/login")
-    public ResponseEntity<User> login(@RequestBody LoginRequest lg) {
-        try {
-            User user = userService.login(lg);
-            if (user != null) {
-                return ResponseEntity.ok(user);
-            } else {
-                throw new RuntimeException("Invalid credentials");
-            }
-        } catch (Exception e) {
-            // Just rethrow so it gets picked up by your LoggingAspect
-            throw e;
-        }
+    public ResponseEntity<User> login(@RequestBody LoginRequest  lg) {
+        User user = userService.login(lg);
+        return ResponseEntity.ok(user);
     }
 
     // Change password
@@ -52,4 +44,22 @@ public class UserController {
         userService.deleteUser(id);
         return ResponseEntity.noContent().build();
     }
+
+
+    @ExceptionHandler(UserService.UserNotFoundException.class)
+    public ResponseEntity<String> handleUserNotFound(UserService.UserNotFoundException ex) {
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());
+    }
+
+    @ExceptionHandler(UserService.InvalidCredentialsException.class)
+    public ResponseEntity<String> handleInvalidCredentials(UserService.InvalidCredentialsException ex) {
+        return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(ex.getMessage());
+    }
+
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity<String> handleGeneralException(Exception ex) {
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                .body("An unexpected error occurred: " + ex.getMessage());
+    }
+
 }

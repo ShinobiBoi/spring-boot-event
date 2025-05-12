@@ -17,19 +17,21 @@ public class UserService {
 
 
     public User registerUser(User user) {
-        // You could hash the password here before saving (for production)
         return userRepo.save(user);
     }
 
 
+    // UserService.java
     public User login(LoginRequest lg) {
-        Optional<User> optionalUser = userRepo.findByEmail(lg.getEmail());
-        if (optionalUser.isPresent() && optionalUser.get().getPassword().equals(lg.getPassword())) {
-            return optionalUser.get();
-        }
-        return null;
-    }
+        User user = userRepo.findByEmail(lg.getEmail())
+                .orElseThrow(() -> new UserNotFoundException("User not found with email: " + lg.getEmail()));
 
+        if (!lg.getPassword().equals(user.getPassword())) {
+            throw new InvalidCredentialsException("Invalid password");
+        }
+
+        return user;
+    }
 
     public User changePassword(Integer id, String newPassword) {
         Optional<User> optionalUser = userRepo.findById(id);
@@ -45,4 +47,19 @@ public class UserService {
     public void deleteUser(Integer id) {
         userRepo.deleteById(id);
     }
+
+
+    // Custom exceptions
+    public class UserNotFoundException extends RuntimeException {
+        public UserNotFoundException(String message) {
+            super(message);
+        }
+    }
+
+    public class InvalidCredentialsException extends RuntimeException {
+        public InvalidCredentialsException(String message) {
+            super(message);
+        }
+    }
+
 }

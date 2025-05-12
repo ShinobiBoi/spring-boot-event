@@ -36,11 +36,27 @@ const Login = () => {
                 body: JSON.stringify(formData),
             });
 
-            const data = await response.json();
+
+
 
             if (!response.ok) {
-                throw new Error(data || "Login failed");
+                // First try to read as text
+                const errorText = await response.text();
+
+
+                // Try to parse as JSON if possible
+                try {
+                    const errorData = JSON.parse(errorText);
+                    throw new Error(errorData.message || "Login failed");
+                    const data = await response.json();
+                } catch {
+                    // If not JSON, use the raw text
+                    throw new Error(errorText || "Login failed");
+                }
             }
+           
+            const data = await response.json();
+    
             const { role, userId, fullName } = data;
 
 
