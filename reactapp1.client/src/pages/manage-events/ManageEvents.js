@@ -42,6 +42,7 @@ const ManageEvents = () => {
     const handleDelete = async (eventId) => {
         try {
             await axios.delete(`/event-services/events/${eventId}`);
+            await axios.delete(`/tickets-services/tickets/event/${eventId}`);
             fetchEvents();
         } catch (err) {
             console.error("Failed to delete event:", err);

@@ -33,6 +33,11 @@ public class TicketsServices {
         return repo.findByEventId(eventId);
     }
 
+    public void deleteTicketsByEventId(Long eventId) {
+        List<Ticket> tickets = repo.findByEventId(eventId);
+        repo.deleteAll(tickets);
+    }
+
     public void deleteTicket(Long id) {
         repo.deleteById(id);
     }

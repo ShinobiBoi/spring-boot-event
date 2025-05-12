@@ -45,11 +45,6 @@ const Header = () => {
                         {/* Authenticated Routes */}
                         {role && (
                             <>
-                                {/* Saved Events - Visible to all authenticated users */}
-                                <Link className="nav-link" to={"/saved-events"}>
-                                    Saved Events
-                                </Link>
-
                                 {/* Admin Routes */}
                                 {role === "Admin" && (
                                     <>

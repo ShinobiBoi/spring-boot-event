@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|c:\\users\\bettercallsaul\\desktop\\eventmaster\\reactapp1.client\\src\\pages\\auth\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|solutionrelative:src\\pages\\auth\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|c:\\users\\bettercallsaul\\desktop\\eventmaster\\reactapp1.client\\src\\shared\\header.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|solutionrelative:src\\shared\\header.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|c:\\users\\bettercallsaul\\desktop\\eventmaster\\reactapp1.client\\src\\routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|solutionrelative:src\\routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|c:\\users\\bettercallsaul\\desktop\\eventmaster\\reactapp1.client\\src\\pages\\manage-events\\addevent.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|solutionrelative:src\\pages\\manage-events\\addevent.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|c:\\users\\bettercallsaul\\desktop\\eventmaster\\reactapp1.client\\src\\pages\\manage-events\\manageevents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|solutionrelative:src\\pages\\manage-events\\manageevents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|c:\\users\\bettercallsaul\\desktop\\eventmaster\\reactapp1.client\\src\\pages\\manage-events\\mytickets.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|solutionrelative:src\\pages\\manage-events\\mytickets.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|c:\\users\\bettercallsaul\\desktop\\eventmaster\\reactapp1.client\\src\\shared\\header.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|solutionrelative:src\\shared\\header.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|c:\\users\\bettercallsaul\\desktop\\eventmaster\\reactapp1.client\\src\\pages\\auth\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|solutionrelative:src\\pages\\auth\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|c:\\users\\bettercallsaul\\desktop\\eventmaster\\reactapp1.client\\src\\routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|solutionrelative:src\\routes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|c:\\users\\bettercallsaul\\desktop\\eventmaster\\reactapp1.client\\src\\components\\eventcard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -35,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|solutionrelative:src\\pages\\eventdetails.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|c:\\users\\bettercallsaul\\desktop\\eventmaster\\reactapp1.client\\src\\pages\\manage-events\\manageevents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|solutionrelative:src\\pages\\manage-events\\manageevents.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|c:\\users\\bettercallsaul\\desktop\\eventmaster\\reactapp1.client\\src\\pages\\manage-events\\updateevent.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|solutionrelative:src\\pages\\manage-events\\updateevent.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|c:\\users\\bettercallsaul\\desktop\\eventmaster\\reactapp1.client\\src\\pages\\manage-events\\addevent.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|solutionrelative:src\\pages\\manage-events\\addevent.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{948DD105-C4C7-4D34-DF86-71D6BF3F183D}|reactapp1.client.esproj|c:\\users\\bettercallsaul\\desktop\\eventmaster\\reactapp1.client\\src\\pages\\auth\\register.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Storage.js",
               "DocumentMoniker": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\helper\\Storage.js",
               "RelativeDocumentMoniker": "src\\helper\\Storage.js",
@@ -110,31 +110,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MyTickets.js",
               "DocumentMoniker": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\pages\\manage-events\\MyTickets.js",
               "RelativeDocumentMoniker": "src\\pages\\manage-events\\MyTickets.js",
               "ToolTip": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\pages\\manage-events\\MyTickets.js",
               "RelativeToolTip": "src\\pages\\manage-events\\MyTickets.js",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAwHEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBcAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-11T16:33:00.51Z"
+              "WhenOpened": "2025-05-11T16:33:00.51Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "ManageEvents.js",
               "DocumentMoniker": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\pages\\manage-events\\ManageEvents.js",
               "RelativeDocumentMoniker": "src\\pages\\manage-events\\ManageEvents.js",
               "ToolTip": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\pages\\manage-events\\ManageEvents.js",
               "RelativeToolTip": "src\\pages\\manage-events\\ManageEvents.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-08T22:18:58.159Z"
+              "WhenOpened": "2025-05-08T22:18:58.159Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "EventDetails.js",
               "DocumentMoniker": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\pages\\EventDetails.js",
               "RelativeDocumentMoniker": "src\\pages\\EventDetails.js",
@@ -146,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "EventCard.js",
               "DocumentMoniker": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\components\\EventCard.js",
               "RelativeDocumentMoniker": "src\\components\\EventCard.js",
@@ -158,19 +160,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Header.js",
               "DocumentMoniker": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\shared\\Header.js",
               "RelativeDocumentMoniker": "src\\shared\\Header.js",
               "ToolTip": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\shared\\Header.js",
               "RelativeToolTip": "src\\shared\\Header.js",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAE0AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAC0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-08T21:45:08.601Z"
+              "WhenOpened": "2025-05-08T21:45:08.601Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "routes.js",
               "DocumentMoniker": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\routes.js",
               "RelativeDocumentMoniker": "src\\routes.js",
@@ -178,12 +181,11 @@
               "RelativeToolTip": "src\\routes.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-08T21:25:54.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T21:25:54.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UpdateEvent.js",
               "DocumentMoniker": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\pages\\manage-events\\UpdateEvent.js",
               "RelativeDocumentMoniker": "src\\pages\\manage-events\\UpdateEvent.js",
@@ -195,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Home.js",
               "DocumentMoniker": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\pages\\home\\Home.js",
               "RelativeDocumentMoniker": "src\\pages\\home\\Home.js",
@@ -207,25 +209,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "AddEvent.js",
               "DocumentMoniker": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\pages\\manage-events\\AddEvent.js",
               "RelativeDocumentMoniker": "src\\pages\\manage-events\\AddEvent.js",
               "ToolTip": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\pages\\manage-events\\AddEvent.js",
               "RelativeToolTip": "src\\pages\\manage-events\\AddEvent.js",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALYAAAAAAAAAAAAAwKQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-06T03:35:28.748Z"
+              "WhenOpened": "2025-05-06T03:35:28.748Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Login.js",
               "DocumentMoniker": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\pages\\Auth\\Login.js",
               "RelativeDocumentMoniker": "src\\pages\\Auth\\Login.js",
               "ToolTip": "C:\\Users\\bettercallsaul\\Desktop\\eventmaster\\reactapp1.client\\src\\pages\\Auth\\Login.js",
               "RelativeToolTip": "src\\pages\\Auth\\Login.js",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAUwD8AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwD8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-05-06T02:45:41.444Z",
               "EditorCaption": ""

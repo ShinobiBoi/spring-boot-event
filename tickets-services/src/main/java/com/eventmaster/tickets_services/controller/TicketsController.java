@@ -41,6 +41,12 @@ public class TicketsController {
         return service.getTicketsByEventId(eventId);
     }
 
+    @DeleteMapping("/event/{eventId}")
+    public ResponseEntity<Void> deleteTicketsByEventId(@PathVariable Long eventId) {
+        service.deleteTicketsByEventId(eventId);
+        return ResponseEntity.noContent().build();
+    }
+
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteTicket(@PathVariable Long id) {
         service.deleteTicket(id);
