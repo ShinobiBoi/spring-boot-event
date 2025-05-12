@@ -1,0 +1,3 @@
+F:\newprojects\ReactApp1\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
+F:\ReactApp1\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
+C:\Users\bettercallsaul\Desktop\eventmaster\reactapp1.client\obj\Debug\reactapp1.client.esproj.CoreCompileInputs.cache
