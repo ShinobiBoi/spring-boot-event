@@ -25,9 +25,18 @@ public class UserController {
 
     // Login
     @PostMapping("/login")
-    public ResponseEntity<User> login(@RequestBody LoginRequest  lg) {
-        User user = userService.login(lg);
-        return user != null ? ResponseEntity.ok(user) : ResponseEntity.status(401).build();
+    public ResponseEntity<User> login(@RequestBody LoginRequest lg) {
+        try {
+            User user = userService.login(lg);
+            if (user != null) {
+                return ResponseEntity.ok(user);
+            } else {
+                throw new RuntimeException("Invalid credentials");
+            }
+        } catch (Exception e) {
+            // Just rethrow so it gets picked up by your LoggingAspect
+            throw e;
+        }
     }
 
     // Change password

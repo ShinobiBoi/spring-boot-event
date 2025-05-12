@@ -1,5 +1,6 @@
 package com.eventmaster.user_services;
 
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.slf4j.Logger;
@@ -32,6 +33,11 @@ public class LoggingAspect {
         long endTime = System.currentTimeMillis();
         logger.info("Method {}() executed successfully in {} ms.", joinPoint.getSignature().getName(), (endTime - startTime));
         return result;
+    }
+
+    @AfterThrowing(pointcut = "controllerMethods()", throwing = "ex")
+    public void logException(JoinPoint joinPoint, Throwable ex) {
+        logger.error("Exception in {}(): {}", joinPoint.getSignature().getName(), ex.getMessage());
     }
 }
 
